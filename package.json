@@ -1,0 +1,28 @@
+{
+  "name": "dom-random-id",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenwarr/dom-random-id"
+  },
+  "bugs": {
+    "url": "https://github.com/zenwarr/dom-random-id/issues"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "mocha --require ts-node/register --require jsdom-global/register ./test.ts"
+  },
+  "author": "zenwarr",
+  "license": "MIT"
+}
