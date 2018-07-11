@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const UglifyPlugin = require('uglifyjs-webpack-plugin');
 
